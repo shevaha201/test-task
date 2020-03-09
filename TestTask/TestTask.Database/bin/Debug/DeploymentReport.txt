@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Setting] (Table)
+       [dbo].[SettingValue] (Table)
+       [dbo].[User] (Table)
+       [dbo].[User].[IX_User_Email] (Index)
+       [dbo].[UserAttempt] (Table)
+       [dbo].[FK_UserAttempt_UserId] (Foreign Key)
+       [dbo].[spGetUsers] (Procedure)
+
+** Supporting actions

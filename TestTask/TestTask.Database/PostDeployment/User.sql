@@ -1,0 +1,1 @@
+﻿INSERT INTO [dbo].[User] ([Email], [FirstName], [LastName]) VALUES ('vshevaha@sharpminds.com', 'Vasyl', 'Shevaha')
