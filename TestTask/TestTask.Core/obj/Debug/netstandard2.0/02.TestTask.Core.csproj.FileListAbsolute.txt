@@ -1,8 +1,0 @@
-F:\test-task\TestTask\TestTask.Core\bin\Debug\netstandard2.0\02.TestTask.Core.deps.json
-F:\test-task\TestTask\TestTask.Core\bin\Debug\netstandard2.0\02.TestTask.Core.dll
-F:\test-task\TestTask\TestTask.Core\obj\Debug\netstandard2.0\02.TestTask.Core.csprojAssemblyReference.cache
-F:\test-task\TestTask\TestTask.Core\obj\Debug\netstandard2.0\02.TestTask.Core.AssemblyInfoInputs.cache
-F:\test-task\TestTask\TestTask.Core\obj\Debug\netstandard2.0\02.TestTask.Core.AssemblyInfo.cs
-F:\test-task\TestTask\TestTask.Core\bin\Debug\netstandard2.0\02.TestTask.Core.pdb
-F:\test-task\TestTask\TestTask.Core\obj\Debug\netstandard2.0\02.TestTask.Core.dll
-F:\test-task\TestTask\TestTask.Core\obj\Debug\netstandard2.0\02.TestTask.Core.pdb
