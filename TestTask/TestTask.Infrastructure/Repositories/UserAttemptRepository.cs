@@ -27,6 +27,7 @@ namespace TestTask.Infrastructure.Repositories
 
                 using (SqlCommand sqlCommand = new SqlCommand("[dbo].[spGetUserAttempts]", sqlConnection))
                 {
+                    sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
                     sqlCommand.Parameters.Add(new SqlParameter("@UserId", userId));
 
                     SqlDataReader sqlDataReader = await sqlCommand.ExecuteReaderAsync();
@@ -56,6 +57,7 @@ namespace TestTask.Infrastructure.Repositories
 
                 using (SqlCommand sqlCommand = new SqlCommand("[dbo].[spAddUserAttempt]", sqlConnection))
                 {
+                    sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
                     sqlCommand.Parameters.Add(new SqlParameter("@UserId", userAttempt.UserId));
                     sqlCommand.Parameters.Add(new SqlParameter("@DateTimeUtc", userAttempt.DateTimeUtc));
                     sqlCommand.Parameters.Add(new SqlParameter("@EnteredSecretValue", userAttempt.EnteredSecretValue));

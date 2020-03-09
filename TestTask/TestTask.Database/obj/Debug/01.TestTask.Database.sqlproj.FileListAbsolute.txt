@@ -1,6 +1,0 @@
-F:\test-task\TestTask\TestTask.Database\bin\Debug\01.TestTask.Database.dacpac
-F:\test-task\TestTask\TestTask.Database\bin\Debug\TestTask.Database.dll
-F:\test-task\TestTask\TestTask.Database\bin\Debug\TestTask.Database.pdb
-F:\test-task\TestTask\TestTask.Database\obj\Debug\TestTask.Database.dll
-F:\test-task\TestTask\TestTask.Database\obj\Debug\TestTask.Database.pdb
-F:\test-task\TestTask\TestTask.Database\obj\Debug\01.TestTask.Database.sqlprojAssemblyReference.cache

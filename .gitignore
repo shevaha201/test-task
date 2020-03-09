@@ -1,0 +1,9 @@
+/TestTask/TestTask.Core/bin
+/TestTask/TestTask.Database/bin
+/TestTask/TestTask.Database/obj
+/TestTask/TestTask.Core/obj
+/TestTask/TestTask.Infrastructure/bin
+/TestTask/TestTask.Infrastructure/obj
+/TestTask/TestTask.WebApi/bin
+/TestTask/TestTask.WebApi/obj
+/TestTask/.vs

@@ -26,7 +26,7 @@ namespace TestTask.WebApi.Core.Handlers
             // 1. Validate attempts count
             Setting enterSecretNumberAttemptsCountSetting = settings.Single(t => t.Name == SettingName.EnterSecretNumberAttemptsCount);
             int userAttemptsCount = (await _userAttemptRepository.GetUserAttempts(addUserAttemptParams.UserId)).Count;
-            if (userAttemptsCount > enterSecretNumberAttemptsCountSetting.IntValue)
+            if (userAttemptsCount >= enterSecretNumberAttemptsCountSetting.IntValue)
                 return new AddUserAttemptResult(AddUserAttemptResult.Type.AttemptsCountExceeded);
 
             // 2. Validate value against range
@@ -43,9 +43,9 @@ namespace TestTask.WebApi.Core.Handlers
 
             Setting secretValueSetting = settings.Single(t => t.Name == SettingName.SecretValue);
             if (addUserAttemptParams.SecretValue == secretValueSetting.IntValue)
-                result = new AddUserAttemptResult(AddUserAttemptResult.Type.IncorrectValue);
-            else
                 result = new AddUserAttemptResult(AddUserAttemptResult.Type.Success);
+            else
+                result = new AddUserAttemptResult(AddUserAttemptResult.Type.IncorrectValue);
 
             // 4. Log user attempt to database
             UserAttempt userAttempt = new UserAttempt
